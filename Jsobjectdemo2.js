@@ -21,7 +21,9 @@ using(d.datadriven, function(data, description)
       obj.goButton.click();
   
       expect(obj.result.getText()).toBe(data.result);
-  
+      console.log("For Branch");
+      console.log("For Branch");
+      console.log("For Branch");
      // obj.getModel();
      // console.log(obj.search);
   
